@@ -1,0 +1,148 @@
+body{
+  font-family: "Montserrat-Bold"!important;
+  text-align: center;
+}
+
+h2{
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+h3{
+  font-family: 'Montserrat';
+  font-size: 1.5rem;
+}
+p{
+  color:gray;
+}
+
+#title{
+  background-color: #F9C0C0;
+  color: white;
+  text-align: left;
+}
+/* .container-fluid{
+  padding: 3%;
+} */
+.container-fluid{
+  /* margin: auto;
+  width: 80%;
+  display: block; */
+ padding: 3% 15% 7%!important;
+ /* height: 80%; */
+}
+
+    /* navbar styling */
+ .navbar{
+  padding: 0 0 4.5rem !important;
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem !important;
+  font-weight: bold;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.25rem;
+  font-family: "Montserrat-light";
+}
+
+    /* download button */
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+    /* title-item */
+.title-image{
+  width: 20.5%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 20.5%;
+}
+
+
+        /* features section */
+#features{
+  padding: 7% 12%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+#features i{
+  margin-left: 50px;
+  font-size: 40px;
+  color:#F9C0C0 ;
+  margin-bottom: 16px;
+}
+#features i:hover{
+  /* font-size: 50px; */
+  color: red;
+}
+.feature-box{
+  padding: 5%;
+}
+
+/* testmonial section  playing with coursel*/
+#testimonials{
+ 
+  background-color: #F6D6AD;
+  color: #fff;
+}
+.testimonials-image{
+  border-radius: 100%;
+  width: 10%;
+  margin: 20px;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+/* press section */
+#press{
+  background-color: #F6D6AD;
+  padding-bottom: 3%;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+/* pricing */
+#pricing{
+  padding: 100px;
+
+}
+.pricing-column{
+  padding: 5% 4%;
+}
+/* media-query to target the title-image to be displayed perfect for mobile users learn this query by heart */
+@media (max-width:1028px){
+   /* #title{
+   } */
+  .title-image{
+    position:static;
+    width: 60%;
+    transform: rotate(0);
+  }
+}
+/* cta css */
+#cta{
+  background-color: #F9C0C0;
+  padding: 7% 15%;
+  color: white;
+}
+.big-heading{
+  font-family: 'Russo One', sans-serif;
+  line-height: 1.5;
+  font-size: 3.2rem;
+}
+
+/* footer section */
+#footer{
+  padding :7% 15%;
+}
+.footer-icons{
+  /* padding: 2%; */
+  /* 20px top-bottom 10px left-right */
+  margin: 20px 10px;
+} 
